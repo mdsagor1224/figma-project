@@ -132,6 +132,94 @@ body{
     margin-top:30px;
 }
 
+.Section2{
+    margin-top:120px;
+    margin-bottom:100px;
+}
+
+
+.section3 h3{
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center;
+    margin-bottom:50px;
+}
+
+.section3 h5{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:#0D0A19;
+    margin-top:10px;
+}
+
+.section3 p{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color:#9A9EA7;
+
+}
+
+
+.Button1{
+    background:linear-gradient(0deg, rgba(255,255,255, 0.85), rgba(255,255,255,0.85));
+    color:#7963f0 !important;
+    border-radius: 8px !important;
+    font-weight:500 !important;
+    font-family:'Inter';
+    font-style:notmal !important;
+    font-size:14px !important;
+    line-height:21px !important;
+    text-align:center !important;
+    letter-spacing:-0.1px !important;
+    
+}
+
+.Button2{
+    background-color: #f5f6f7 !important;
+    color: #9a9ea7 !important;
+    border-radius:8px !important;
+    font-weight:500 !important;
+    font-family:'Inter';
+    font-size:14px !important;
+    line-height:21px !important;
+    text-align:center !important;
+    letter-spacing:-0.1px !important;
+
+}
+
+
+.card{
+    border:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media all and (max-width:767px){
     .section1 h1{
         font-size:38px;
@@ -148,5 +236,12 @@ body{
         width:95%;
         padding:17px 0;
         margin:auto;
+    }
+
+    .Section2{
+        margin-top:320px;
+    }
+    .Section2 img{
+        margin-top:20px;
     }
 }
