@@ -204,20 +204,106 @@ body{
 }
 
 
+/* section4 area */
 
+.section4{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+.FindCarHeader{
+    width:98%;
+    height:60px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+}
+p.ArrowArea span img {
+    font-size: 15px;
+    height: 20;
+    height: 20px;
+    width: 20px;
+}
 
+.findCar{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height:36px;
+    letter-space:-0.1px;
+    color: #0D0A19;
+}
 
+.ArrowArea{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight:700;
+    font-size:16px;
+    line-height:24px;
+    text-align:right;
+    color: #9A9EA7;
+}
 
+header p span{
+    margin:0px 5px;
+    width:30px;
+    height:30px;
+}
 
+.ArrowArea img{
+    background:#F5F6F7;
+    border-radius:10px;
+    /* padding:10px !important;  */
+    height:20px;
+    width:20px;
+}
 
+.Sedan{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
 
+}
 
+.ProBTN{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    background: #EBE8FD;
+    color: #7963F0 !important;
 
+}
 
+.ProBTN1{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    background: #F5F6F7;
+    color: #9A9EA7 !important;
+}
 
-
-
-
+.product{
+    mix-width:24%;
+    margin:0 20px 50px 0px;
+    border-radius:20px;
+    position:relative;
+    left:0;
+    transition:0.5s;
+}
+.FindCarHeader{
+    margin-bottom:70px;
+}
 
 
 @media all and (max-width:767px){
